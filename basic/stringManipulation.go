@@ -11,14 +11,14 @@ func reverse(str string ) (result string){
 	return
 }
 
-func main(){
-	var s string
+// func main(){
+// 	var s string
 
-	fmt.Println("type something(not count after backspace):")
-	fmt.Scan(&s)
+// 	fmt.Println("type something(not count after backspace):")
+// 	fmt.Scan(&s)
 
-	fmt.Printf("\nNumber off charcters: %d\n\n",len(s))
+// 	fmt.Printf("\nNumber off charcters: %d\n\n",len(s))
 
-	fmt.Printf("String reversed: %s", reverse(s))
+// 	fmt.Printf("String reversed: %s", reverse(s))
 
-}
+// }

@@ -52,12 +52,12 @@ func (arvore *arvoreBinaria) imprimir(raiz *elemento) {
 	}
 }
 
-func main() {
-	arvore := &arvoreBinaria{}
+// func main() {
+// 	arvore := &arvoreBinaria{}
 
-	arvore.adicionar("Paulo", 20)
-	arvore.adicionar("Lucas", 2)
-	arvore.adicionar("João", 15)
+// 	arvore.adicionar("Paulo", 20)
+// 	arvore.adicionar("Lucas", 2)
+// 	arvore.adicionar("João", 15)
 
-	arvore.imprimir(arvore.raiz)
-}
+// 	arvore.imprimir(arvore.raiz)
+// }

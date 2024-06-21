@@ -2,20 +2,18 @@ package main
 
 import (
 	"fmt"
-	"module/packages"
-
-	"github.com/badoux/checkmail"
+	"module/functions"
 )
-
 func main() {
-	packages.Typing()
-	var email string
 
-	fmt.Println("Type your email")
-	fmt.Scan(&email)
+	soma := functions.Sum(10, 14)
+	fmt.Println(soma)
+	
+	text := functions.TypeString("arroz")
+	
+	fmt.Println(text)
 
-	err  := checkmail.ValidateFormat(email)
+	sum, sub := functions.Calc(10,5)
 
-	fmt.Println(err)
+	fmt.Println(sum,sub)
 }
-
